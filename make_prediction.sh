@@ -27,4 +27,4 @@ curl -d '{
 
 
      -H "Content-Type: application/json" \
-     -X POST https://azure-cicd.azurewebsites.net/predict
+     -X POST http://0.0.0.0:$PORT/predict
